@@ -1,7 +1,13 @@
-Installare sul proprio computer l'applicazione: https://classroom.google.com/c/NTI3NzA3ODQ1Mjcx/m/NDkxMzc2NzY0NzU3/details
+## La classe ALBUM diventa Astratta
 
-- Creare nel file csv un brano duplicato (stesso numero), si osserverà la generazione di una eccezione.
+- <b>Il metodo stampaCopertina diventa astratto.</b>
+<br>
 
-> Consegna: gestire (try-catch) le eccezioni lanciate (cercare la keyword throw). 
->
->Caricare i file modificati.
+> <b>Creare le classi concrete :</b>
+> - lpAlbum
+> - cdAlbum
+> - mp3Album
+> - streamAlbum
+<br>
+
+Ognuna delle quali avrà una sua implementazione del metodo astratto spampaCopertina
