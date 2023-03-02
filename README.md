@@ -1,6 +1,6 @@
 ## La classe ALBUM diventa Astratta
 
-- <b>Il metodo stampaCopertina diventa astratto.</b>
+- <b>crea il metodo stampaCopertina.</b>
 <br>
 
 > <b>Creare le classi concrete :</b>
