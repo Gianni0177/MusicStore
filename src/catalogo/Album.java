@@ -148,7 +148,7 @@ public abstract class Album {
 		return str;
 	}
 
-	protected void stampacopertina(){
+	protected void stampaCopertina(){
 		//metodo utilizzato dai varii tipi di Album
 	}
 }

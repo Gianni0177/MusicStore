@@ -7,7 +7,7 @@ public class CdAlbum extends Album{
     }
 
     @Override
-    protected void stampacopertina() {
+    protected void stampaCopertina() {
         // TODO Auto-generated method stub
         super.stampacopertina();
     }
