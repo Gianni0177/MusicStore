@@ -5,6 +5,10 @@ import anagrafica.Persona;
 import catalogo.Album;
 import catalogo.Brano;
 import catalogo.Catalogo;
+import catalogo.CdAlbum;
+import catalogo.LpAlbum;
+import catalogo.Mp3Album;
+import catalogo.StreamAlbum;
 
 /**
  * @author Aula Lim
@@ -19,10 +23,10 @@ public class TestMusicStore {
 		
 		// TEST CREAZIONE Album
 		System.out.println("-------- TEST CREAZIONE Album");
-		Album alb1=new Album(1, "still","joy division", "1979-01-01", "emi", 12.0);
-		//Album alb2=new Album( "still","joy division", "1979-01-01", "emi",12.0);
-		//Album alb3=new Album( "still","joy division", "1979-01-01", "emi",12.0);
-		System.out.println(alb1.toString());
+		Album alb1=new CdAlbum(1, "still","joy division", "1979-01-01", "emi", 12.0);
+		Album alb2=new LpAlbum(1, "still","joy division", "1979-01-01", "emi", 12.0);
+		Album alb3=new Mp3Album(1, "still","joy division", "1979-01-01", "emi", 12.0);
+		Album alb4=new StreamAlbum(1, "still","joy division", "1979-01-01", "emi", 12.0);
 		/*
 		Album.cambiaContatore(-10);
 		System.out.println(alb1.getContatoreAlbum());

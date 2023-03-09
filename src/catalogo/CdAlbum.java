@@ -8,7 +8,8 @@ public class CdAlbum extends Album{
 
     @Override
     protected void stampacopertina() {
-        // TODO Auto-generated method stub
+        System.out.println("Album [titolo=" + this.getTitolo() + ", band=" + this.getArtisti() + ", dataPubblicazione=" + this.getdataPubblicazione() + ", etichetta=" + getEtichetta()
+        + ", prezzo=" + this.getPrezzo() + this.stampaBrani() + "]");
         super.stampacopertina();
     }
     

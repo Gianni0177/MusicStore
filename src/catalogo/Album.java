@@ -138,7 +138,7 @@ public abstract class Album {
 				+ ", prezzo=" + prezzo + stampaBrani() + "]";
 	}
 
-	private String stampaBrani() {
+	protected String stampaBrani() {
 		String str = "\n\rBrani: {";
 		for (Brano brano : this.brani)
 			if (brano != null)
